@@ -1,20 +1,12 @@
-# Azure-OpenAI
+# Welcome to the world of Language Models and Text Analytics with GPT models and Azure OpenAI services!
 
-There has been a massive buzz these days around the Large Language Models (LLM), especially now that everyone can access the GPT models via ChatGPT and try out its wonderful capabilities. For developers like us, who have been working in the domain of natural language processing for some years, language models are not new. This time, I got an opportunity to participate in a hackathon using Azure OpenAI APIs to solve business use-cases.
+Language Models are becoming increasingly popular for solving different text analytics tasks like summarization, question-answering, sentiment analysis, text generation, and more. These models are capable of learning and understanding the natural language in a way that they can generate coherent and relevant responses to complex queries. One such model is the GPT (Generative Pre-trained Transformer) model.
 
-I came across several wonderful blogs/reading materials on how to use LLMs for production. I learnt about prompt engineering and how to use prompts effectively to gradually achieve the desired outcome. This blog is a great introduction to prompts: https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-intro.md
+GPT models are a class of Language Models developed by OpenAI that are pre-trained on large amounts of text data, using unsupervised learning techniques. These models can be fine-tuned on specific tasks to produce state-of-the-art results on a variety of natural language processing tasks.
 
-Some basic tips recommended to design prompts are:
-1. Keep the value of the temperature parameter low to avoid randomness and obtain more determninistic results (depends on the application, for creative applications we can keep this value high).
-2. Using simple and specific instructions return better results.
-3. It is better to mention what to do, instead of defining what not to do. 
+Azure OpenAI Services provide a powerful and easy-to-use platform for developers and researchers to experiment with and utilize these advanced NLP capabilities. With Azure OpenAI Services, you can easily integrate GPT models into your applications and use them to solve a wide range of text analytics problems.
 
-Prompt Engineering are ways to modify the prompts without updating the model weights, so as to steer the model's response. 
+One of the key techniques for utilizing GPT models effectively is prompt engineering. Prompt engineering is the process of designing high-quality prompts or templates that are used to guide the model to generate relevant and coherent responses. By carefully designing prompts, you can achieve better results on various NLP tasks like question-answering, summarization, and more.
 
-Methods like Zero-Shot Learning and Few-Shot learning are some of the basic approaches that can be used to interact with the model. In Zero Shot learning, we simply ask the model what we want from it. In Few Shot learning, we show the model some good examples of the input and the kind of output that we expect from the model. This is expected to return better results than Zero Shot approach. 
+In this repository, we will explore different text analytics tasks that can be performed using GPT models and Azure OpenAI Services. We will also discuss prompt engineering techniques. The repository contains code examples that use with Language Models to perform Text Analytics using open-source large language models and Azure OpenAI Services.
 
-I also realised that:
-1. While natural language interface is much convenient for users, it isn't the cause of a great developer experience. This is because a slight change in the prompt can return very different output which is difficult to detect.
-2. We can mitigate the ambiguity in LLM's response, by systematically applying prompt engineering. 
-
-This repository contains some of my experimentation with using Azure OpenAI APIs and prompt engineering.
